@@ -30,6 +30,7 @@ const onContainerClick = (el) => {
 
 galleryList.addEventListener('click', onContainerClick);
 
+// script to close modal when press escape 
 document.addEventListener('keydown', function(el) {
   if (el.key === 'Escape') {
     hideModal();
